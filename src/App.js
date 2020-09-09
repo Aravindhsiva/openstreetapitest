@@ -4,7 +4,7 @@ var mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
 export default class App extends React.Component {
   constructor() {
     mapboxgl.accessToken =
-      "pk.eyJ1IjoiYXJhdmluZGhzaXZhIiwiYSI6ImNrZXZucXRsYjM5YjQyc21xdTE4dnFsZTEifQ.GxyMpdEOwDCSqe7wTtqd7g";
+      "<MYKEY>";
     var map = new mapboxgl.Map({
       container: "map",
       // center: [12.987486, 80.204590],
